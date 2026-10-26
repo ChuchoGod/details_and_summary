@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #f3f4f4;
+}
+
+.ancho {
+    max-width: 920px;
+    margin: auto;
+}
+
+.margen {
+    padding: 15px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.borde {
+    border: 1px #f00 solid;
+}
+
+.titulo {
+    padding-top: 15px;
+    color: #2e2e79;
+    font-weight: bold;
+}
+
+.parrafo {
+    padding: 12px 20px;
+    color: #7f0505;
+    font-weight: bold;
+}
+
+.semestres {
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.semestrepart1 {
+    flex: 1;
+    min-width: 0;
+}
+
+.semestrepart2 {
+    flex: 1;
+    min-width: 0;
+}
+
+details {
+    margin-bottom: 8px;
+}
+
+.semestre1,
+.semestre2,
+.semestre3,
+.semestre4,
+.semestre5,
+.semestre6,
+.semestre7,
+.semestre8,
+.semestre9 {
+    background-color: #fafafb;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    margin: 8px;
+}
+
+summary {
+    border: 2px solid #0875d1;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin: 6px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details ul {
+    margin: 6px 14px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 8px;
+    background-color: #ddd;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.btn {
+    display: block;
+    width: fit-content;
+    background-color: #d4b13f;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 35px 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
